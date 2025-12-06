@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>experiment10</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+        }
+        .welcome-banner {
+            background-color: #ad3125;
+            color: #fff;
+            text-align: center;
+            padding: 0.7rem 1rem;
+            font-size: 1rem;
+        }
+        .navbar {
+            background-color: #0c0909;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+        .logo {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            flex-direction: column; 
+            width: 100%;
+            margin-top: 1rem;
+            align-items: center;
+        }
+        .nav-links li {
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+        .nav-links li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            display: block;
+        }
+        .nav-links li a:hover {
+            color: #ff6f61;
+        }
+        .cart-login {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .login a {
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 0.3rem 0.7rem;
+            border-radius: 4px;
+        }
+        .cart-login a:hover {
+            background-color: #7b5451;
+            border-color: #797575;
+        }
+        @media (min-width: 768px) {
+            .nav-links {
+                flex-direction: row; /* Horizontal on desktop */
+                width: auto;
+                margin-top: 0;
+            }
+
+            .nav-links li {
+                padding: 0 1rem;
+            }
+
+            .cart-login {
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-banner">
+        Welcome to MegaStore:) Your one-stop destination for all shopping needs!
+    </div>
+    <nav class="navbar">
+        <div class="logo">MegaStore</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="cart-login">
+            <a href="#">Cart 🛒</a>
+            <a href="#">Login</a>
+        </div>
+    </nav>
+</body>
+</html>
+

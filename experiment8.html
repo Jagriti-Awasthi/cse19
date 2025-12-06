@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>experiment8</title>
+        <style>
+            *{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            body{
+                margin: 20px;
+            }
+            h2{
+                text-align:center;
+            }
+            .container{
+                display: flex;        
+               flex-direction: row;            
+               justify-content: center;       
+                align-items: center;           
+                gap: 20px;                      
+                flex-wrap: wrap;
+                color: black;
+            }
+            .card{
+                border:8px solid brown;
+                width:220px;
+                text-align: center;
+                padding:16px;
+            }
+            .avatar{
+                width:70px;
+                height: 70px;
+                border-radius:50%;
+                background-color: burlywood;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+                color:black;
+                margin:0 auto;
+            }
+            .name{
+                font-size: 18px;
+                align-items: center;
+            }
+            .detail{
+                font-size: 14px;
+                margin:2px 0;
+            }
+        </style>
+    </head>
+    <body>
+    <h2>Student Profile Cards</h2>
+    <div class="container">
+        <div class="card">
+            <div class="avatar"><b>SK</b></div>
+            <div class="name">Saumya Kushwaha</div>
+            <div class="detail">B.Tech-CSEDS</div>
+            <div class="detail">Roll No:25CSDS1472</div>
+            <div class="detail">1st Year</div>
+        </div>
+        <div class="card">
+           <div class="avatar"><b>AS</b></div>
+            <div class="name">Abhimanyu Singh</div>
+            <div class="detail">B.Tech-EC</div>
+            <div class="detail">Roll No:25EC1403</div>
+            <div class="detail">1st Year</div> 
+        </div>
+        <div class="card">
+            <div class="avatar"><b>KS</b></div>
+            <div class="name">Kirti Sharma</div>
+            <div class="detail">B.Tech-IT</div>
+            <div class="detail">Roll No:25IT1430</div>
+            <div class="detail">1st Year</div>
+        </div>
+    </div>
+    </body>
+</html>
